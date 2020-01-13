@@ -13,6 +13,7 @@
 		8F2636DB23CBE9CB00F53AD7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F2636DA23CBE9CB00F53AD7 /* Assets.xcassets */; };
 		8F2636DE23CBE9CB00F53AD7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F2636DD23CBE9CB00F53AD7 /* Preview Assets.xcassets */; };
 		8F2636E123CBE9CB00F53AD7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F2636DF23CBE9CB00F53AD7 /* LaunchScreen.storyboard */; };
+		8FC82BA323CC2B2700D9897E /* ColorPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC82BA223CC2B2700D9897E /* ColorPickerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		8F2636DD23CBE9CB00F53AD7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8F2636E023CBE9CB00F53AD7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8F2636E223CBE9CB00F53AD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8FC82BA223CC2B2700D9897E /* ColorPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				8F2636DF23CBE9CB00F53AD7 /* LaunchScreen.storyboard */,
 				8F2636E223CBE9CB00F53AD7 /* Info.plist */,
 				8F2636DC23CBE9CB00F53AD7 /* Preview Content */,
+				8FC82BA223CC2B2700D9897E /* ColorPickerView.swift */,
 			);
 			path = ColorPicker;
 			sourceTree = "<group>";
@@ -146,6 +149,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8FC82BA323CC2B2700D9897E /* ColorPickerView.swift in Sources */,
 				8F2636D523CBE9C900F53AD7 /* AppDelegate.swift in Sources */,
 				8F2636D723CBE9C900F53AD7 /* SceneDelegate.swift in Sources */,
 				8F2636D923CBE9C900F53AD7 /* ContentView.swift in Sources */,
